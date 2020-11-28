@@ -49,3 +49,10 @@ A PARTIR DU MOMENT ELLE EST UTILISEE PAR D' AUTRE CLASSE
 MAIS UNE CLASSE DOIT ETRE OUVERTE A D' AUTRE CLASSE 
 POUR LA MODIFICATION
 ```
+
+3. LSP : LISKOV SUBSTITUTION PRINCIPE
+```markdown
+si S est un sous-type de T, alors tout object de type T peut etre
+remplace par un objet de type S sans alterer les proprietes desirables
+du programme concerne
+```
