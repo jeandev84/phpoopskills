@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1880a344-b7a3-4690-b4fe-ea0ad3253e86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lior/SOLID/src/Reporting/Format/HtmlSpecialFormatter.php" afterDir="false" />
-    </list>
+    <list default="true" id="1880a344-b7a3-4690-b4fe-ea0ad3253e86" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606592083488</updated>
-      <workItem from="1606592084610" duration="8678000" />
+      <workItem from="1606592084610" duration="9450000" />
     </task>
     <servers />
   </component>
