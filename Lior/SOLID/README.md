@@ -43,4 +43,5 @@ features.
 When a descendant class is defined,
 there is no need to change the original
 or to disturb its clients.
+
 ```
