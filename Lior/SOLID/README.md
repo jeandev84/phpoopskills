@@ -44,4 +44,8 @@ When a descendant class is defined,
 there is no need to change the original
 or to disturb its clients.
 
+UNE CLASSE DOIT ETRE FERME A LA MODIFICATION 
+A PARTIR DU MOMENT ELLE EST UTILISEE PAR D' AUTRE CLASSE
+MAIS UNE CLASSE DOIT ETRE OUVERTE A D' AUTRE CLASSE 
+POUR LA MODIFICATION
 ```
