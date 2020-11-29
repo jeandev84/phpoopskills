@@ -2,13 +2,14 @@
 namespace App\Reporting\Format;
 
 
+use App\Reporting\Format\Contract\FormatterInterface;
 use App\Reporting\Report;
 
 /**
  * Class HtmlFormatter
  * @package App\Reporting\Format
 */
-class HtmlFormatter
+class HtmlFormatter implements FormatterInterface
 {
 
     /**
@@ -17,7 +18,7 @@ class HtmlFormatter
      * @param Report $report
      * @return string
     */
-    public function formatToHtml(Report $report)
+    public function format(Report $report): string
     {
         $contents = $report->getContents();
 
@@ -36,4 +37,44 @@ class HtmlFormatter
             </ul>
         ";
     }
+
+    /*
+    public function deserialize(string $str): Report
+    {
+        throw new \Exception("Il est impossible de deserialiser du HTML");
+
+        return new Report("", "", []);
+    }
+    */
 }
+
+
+/**
+ * interface CoffeeMaker {
+ *    public function makeCoffee();
+ *    public function makeCapuccino();
+ *    public function makeTea();
+ * }
+ *
+ * interface TeaMaker {
+ *    public function makeTea();
+ * }
+ *
+ * class MachineACoffee implements CoffeeMaker {
+ *
+ *    public function makeCoffee() {
+ *
+ *         // 30 lignes de code
+ *    }
+ *
+ *    public function makeCapuccino() {
+ *
+ *        // 30 lignes de code
+ *    }
+ *
+ *    public function makeTea() {
+ *
+ *        // 20 lignes de code
+ *    }
+ * }
+ */

@@ -57,3 +57,22 @@ remplace par un objet de type S sans alterer les proprietes desirables
 du programme concerne
 ```
 
+
+4. ISP : INTERFACE SEGREGATION PRINCIPLE (ROBERT C. MARTIN)
+```markdown
+PRINCIPE DE SEGREGATION DES INTERFACES
+plusieurs interfaces mieux vaut creer plusieurs methods
+Cette pratique permet de ne pas forcer les classes a implementer des methodes 
+dont elles n'ont pas besoin
+
+interface                Classe X
+-------------------      --------------------
++ methodA()              + __construct()
++ methodB()              # methodeX()
+                         + methodeY()
+                         + methodeA()
+                         + methodeB()
+
+Aucun client (c.a.d les classes de l'interface) ne devrait dependre
+de methodes qu'il n' utilise pas
+```

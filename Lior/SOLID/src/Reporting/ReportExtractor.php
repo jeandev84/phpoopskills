@@ -30,9 +30,9 @@ class ReportExtractor
         $jsonFormatter = new JsonFormatter();
 
 
-        $results[] = $htmlFormatter->formatToHTML($report);
-        $results[] = $jsonFormatter->formatToJSON($report);
-        $results[] = $htmlSpecialFormatter->formatToHtml($report);
+        $results[] = $htmlFormatter->format($report);
+        $results[] = $jsonFormatter->format($report);
+        $results[] = $htmlSpecialFormatter->format($report);
 
         return $results;
     }
