@@ -76,3 +76,17 @@ interface                Classe X
 Aucun client (c.a.d les classes de l'interface) ne devrait dependre
 de methodes qu'il n' utilise pas
 ```
+
+4. DIP : DEPENDENCY INVERSION PRINCIPE (ROBERT C. MARTIN)
+```markdown
+Nous preferons dependre d'abstraction plutot que d'implementation
+Nous devons dependre de l'abstraction que de chose concrete
+
+
+Un module de haut niveau ne devrait pas dependre de modules de bas de
+niveaux.
+
+Les deux devraient dependre d'une abstraction
+```
+
+```
